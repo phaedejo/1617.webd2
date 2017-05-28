@@ -8,29 +8,36 @@
       <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
-        <link rel="stylesheet" media="all" href="css/grid.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
+    <link rel="stylesheet" media="all" href="css/responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
 <body>
-     <ul id="lijst">
+  <!--nav-->
+  <body class="_grid__development"  >
 	<div class="grid__wrapper">
 		<div class="grid__container">
 			<div class="grid__row">
-				<div class="grid__column-3"><li><a href="portfolio.html">portfolio</a></li></div>
-				<div class="grid__column-3"><li><a href="diensten.html">diensten</a></li></div>
-				<div class="grid__column-4"><li><a href="over_ons.html"> over ons</a></li></div>
-				<div class="grid__column-2"><li><a href="contact.html"> contact</a></li></div>
+        <nav id="main-navigation">
+            <ul>
+              <li><a href="portfolio.html" class="active">portfolio</a></li>
+              <li><a href="diensten.html">diensten</a></li>
+              <li><a class="afbeelding" href="index.html"><img src="IMG/logo_eb.svg"></a></li>
+              <li><a href="over_ons.html"> over ons</a></li>
+              <li><a href="contact.html"> contact</a></li>
+            </ul>
+        </nav>
 			</div>
 		</div>			
 	</div>
-  </ul>
+  <!--nav-->
 
 <div class="grid__wrapper">
 		<div class="grid__container">
 			<div class="grid__row">
-				<div class="grid__column-5"> <p> met welke diensten kunnen wij u helpen? </p>
+				<div class="grid__column-5"> <h2> met welke diensten kunnen wij u helpen? </h2>
 </div>
 	    </div>
 		</div>			
@@ -41,31 +48,32 @@
 		<div class="grid__container">
 			<div class="grid__row">
 				<div class="grid__column-9">
-              <a href="portfolio.html"><i class="fa fa-heart-o" aria-hidden="true"></i>huisstijlen</a>
-              <p>  begint u een nieuwe zaak en u hebt nog geen typerende look? Dan kan u bij ons terecht!<br> wij zorgen voor een volledige huistijlfiche met logo, kleur en lettertypes<br>Bent u een al bestaand bedrijf, maar je hebt nog geen typische look, of je bent je huidige beu? Ook dan kan je bij ons terecht <br>Wij ontwerpen huistijlen voor particulieren,zelfstandigen en grote merken</p><br>
-              <a href="portfolio.html"><i class="fa fa-heart-o" aria-hidden="true"></i>logo's</a> 
+            <ul class="diensten">
+              <li><a href="portfolio.html"><i class="fa fa-heart-o" aria-hidden="true"></i>huisstijlen</a></li>
+              <p>  begint u een nieuwe zaak en u hebt nog geen typerende look? Dan kan u bij ons terecht!<br> wij zorgen voor een volledige huisstijl met logo, kleur en lettertypes<br>Bent u een al bestaand bedrijf, maar je hebt nog geen typische look, of je bent je huidige beu?<br>Ook dan kan je bij ons terecht <br>Wij ontwerpen huistijlen voor particulieren,zelfstandigen en grote merken</p><br>
+             <li> <a href="portfolio.html"><i class="fa fa-heart-o" aria-hidden="true"></i>logo's</a> </li>
               <p> onze logo's worden met de grootste passie en zorgvuldigheid gemaakt, wij maken logo's voor alle gelegenheden. <br> u kiest zelf hoe en wat en wij zetten u voorkeuren om in prachtige designs!</p><br>
-              <a href="portfolio.html"><i class="fa fa-heart-o" aria-hidden="true"></i>websites </a> 
+            <li> <a href="portfolio.html"><i class="fa fa-heart-o" aria-hidden="true"></i>websites </a> </li>
               <p>nog geen website? voor een zaak of als freelancer? uw oude website pimpen?<br> onze webdesinger heeft pakken ervaring van html tot #c .Hij doet het allemaal</p><br>
-              <a href="portfolio.html"><i class="fa fa-heart-o" aria-hidden="true"></i>drukwerk</a> 
+             <li> <a href="portfolio.html"><i class="fa fa-heart-o" aria-hidden="true"></i>drukwerk</a> </li>
              <p> visitekaartjes, geboortekaartjes, uitnodigingen, affiches of brochures, ook voor al uw drukwerk kan je bij ons terecht!<br> iedere werknemer bij ons heeft ervaring in lay-out. Ze werken dan ook vaak samen om tot een perfect eindproduct te komen</p>
+            </ul>
         </div>	
       </div>
-		</div>
-</div>  
+		</div><!-- /grid__containter -->  
+</div><!-- /grid__wrapper -->  
 
 <div class="grid__wrapper footer_wrapper">
   <div class="grid__container">
     <div class="grid__row">
       <div class="grid__column-12">
-        <p>050 32 89 57 ­• info@pda.be • industrieweg 232 • 9000 Gent </p>
-        <p>Privacy • Facebook • Twitter • Instagram • Pintrest</p>
-        <div class="grid__column-2">
-          <p>© 2017 Pineapple design</p>
+        <p>© 2017 Pineapple design • 050 32 89 57 ­• info@pda.be • industrieweg 232 • 9000 Gent </p>
+      <ul class="footer"> <li> <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li> <li> <a href="https://twitter.com"> <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li> <li><a href="https://www.instagram.com"> <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li> <li><a href="https://www.pinterest.com"> <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i></a></li></ul>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 </body>
 </html>

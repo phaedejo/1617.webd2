@@ -17,20 +17,106 @@ body {
 img{
   margin: 0 auto;
 }
+.background{
+  background-color: white;
+}
+form{
+  margin:32px 32px;
+}
 
-/* portfolio
------------------- */
-.portfolio-item-box {
-  border:solid 1px red;
+/* footer
+--------------------------*/
+.footer_wrapper{
+  background-color: #EBCFC4;;
+  text-align: right;
+  padding:1rem;
+  
+ 
+}
+ul.footer a{
+  color: white;
+}
+li.footer{
+  float: left;
+  display: inline;}
+
+.footer{
+  list-style-type: none;
+  text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    }
+    a:hover{
+      border-bottom: 2px solid #EBCFC4;
+    }
+/* navigatie
+------------------------ */
+ .diensten{
+   list-style-type: none;
+   text-decoration: none; 
+ }
+ ul.diensten a{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  
+}
+ul.diensten a:hover{
+border-bottom: 2px solid #EBCFC4
+}
+nav#main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 
+nav#main-navigation>ul>li{
+   float: left;
+   width:20%;
+}
+
+
+nav#main-navigation a {
+    display: block;
+    width: 100%;
+    color:black;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    height: 75px;
+    line-height: 75px;
+}
+  
+nav#main-navigation a:hover {
+    border-bottom: 2px solid #EBCFC4;
+}
+
+nav#main-navigation a.afbeelding img {
+    height: 75px;
+    width: auto;
+}
+nav#main-navigation a.afbeelding:hover {
+    border-bottom: none;
+}
+
+
+a.active {
+  color: #EBCFC4
+}
+/* portfolio
+------------------ */
+.overons-item-box {
+  height: 350px;
+}
+
 .container {
     position: relative;
-    width: 100%;
-    border: solid 1px green;
+    width: 100%; 
     height: 350px;
-    overflow: hidden;
+    overflow: hidden;  
   }
 
 .container .image {
@@ -39,7 +125,7 @@ img{
   width: 100%;
   height: auto;
   transition: .5s ease;
-  backface-visibility: hidden;
+  backface-visibility: hidden; 
 }
 
 .container .image-vert {
@@ -84,8 +170,9 @@ img{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 30px ;
     cursor: pointer;
+   
 }
 .button4 {
     background-color: white;
@@ -94,59 +181,3 @@ img{
     clear: left;
 }
 .button4:hover {background-color: #e7e7e7;}
-
-.afbeelding{
-  size: 5px;
-}
-/* footer
---------------------------*/
-.footer_wrapper{
-  background-color: #efefef;;
-  text-align: right;
-  padding:2rem;
-}
-
-
-/* navigatie
------------------------- */
-nav#main-navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-nav#main-navigation>ul>li{
-   float: left;
-   width:20%;
-}
-
-
-nav#main-navigation a {
-    display: block;
-    width: 100%;
-    color:black;
-    text-align: center;
-    padding: 0;
-    text-decoration: none;
-    height: 50px;
-    line-height: 50px;
-}
-  
-nav#main-navigation a:hover {
-    border-bottom: 2px solid #EBCFC4;
-}
-
-nav#main-navigation a.afbeelding img {
-    height: 50px;
-    width: auto;
-}
-nav#main-navigation a.afbeelding:hover {
-    border-bottom: none;
-}
-
-
-a.active {
-  color: #EBCFC4
-}
-

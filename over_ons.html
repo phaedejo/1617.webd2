@@ -5,52 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>over ons</title>
-      <link rel="stylesheet" media="all" href="css/fonts.css">
+    <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
-        <link rel="stylesheet" media="all" href="css/grid.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
+    <link rel="stylesheet" media="all" href="css/responsive.css">
+
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body>
-   <ul id="lijst">
+  <!--nav-->
+  <body class="_grid__development"  >
 	<div class="grid__wrapper">
 		<div class="grid__container">
 			<div class="grid__row">
-				<div class="grid__column-3"><li><a href="portfolio.html">portfolio</a></li></div>
-				<div class="grid__column-3"><li><a href="diensten.html">diensten</a></li></div>
-				<div class="grid__column-4"><li><a href="over_ons.html"> over ons</a></li></div>
-				<div class="grid__column-2"><li><a href="contact.html"> contact</a></li></div>
+        <nav id="main-navigation">
+            <ul>
+              <li><a href="portfolio.html" class="active">portfolio</a></li>
+              <li><a href="diensten.html">diensten</a></li>
+              <li><a class="afbeelding" href="index.html"><img src="IMG/logo_eb.svg"></a></li>
+              <li><a href="over_ons.html"> over ons</a></li>
+              <li><a href="contact.html"> contact</a></li>
+            </ul>
+        </nav>
 			</div>
 		</div>			
 	</div>
-  </ul>
-   
-<div class="grid__wrapper">
+ <!--nav-->
+  
+   	<div class="grid__wrapper">
 		<div class="grid__container">
 			<div class="grid__row">
-				<div class="grid__column-5">  </div>  <div class="container">
-  <img src="IMG/ik.jpg" alt="eigenaar" class="image" style="width:100%">
-  <div class="middle">
-    <div class="text">Phaedra De jonge <br> eigenares <br>grafisch vormgeefster</div>
-  </div></div> </div>
-			
-      	<div class="grid__column-4"><div class="container">
-  <img src="IMG/persoon2.jpg" alt="" class="image" style="width:100%">
-  <div class="middle">
-    <div class="text">tom peeters <br> vormgeefer/webdesigner</div>
-  </div></div></div>
-				
-        <div class="grid__column-3">  <div class="container">
-  <img src="IMG/persoon3.jpg" alt="" class="image" style="width:100%">
-  <div class="middle">
-    <div class="text">Sara janssens <br> illustrator/developper</div>
-  </div></div>
-			</div>
-				</div>			
-        	</div>
+        <div class="grid__column_4"> <p> Neem hier een kijkje naar onze symphatieke medewerkers</p> </div>
+				<div class="grid__column-4 overons-item-box box1"> 
+              <div class="container">
+                  <img src="IMG/ik.jpg" alt="eigenaar" class="image">
+                  <div class="middle">
+                      <div class="text">Phaedra De jonge <br> eigenares <br>grafisch vormgeefster</div>
+                  </div>
+              </div><!-- /container -->
+				</div><!-- /box1 -->
+
+        <div class="grid__column-4 overons-item-box box2"> 
+              <div class="container">
+                  <img src="IMG/persoon2.jpg" alt="werknemer" class="image">
+                  <div class="middle">
+                      <div class="text">tom peeters <br> vormgeefer/webdesigner</div>
+                  </div>
+              </div><!-- /container -->
+				</div><!-- /box2 -->
+
+        <div class="grid__column-4 overons-item-box box3"> 
+              <div class="container">
+                  <img src="IMG/persoon3.jpg" alt="werknemer" class="image-vert">
+                  <div class="middle">
+                      <div class="text">Sara janssens <br> illustrator/developper</div>
+                  </div>
+              </div><!-- /container -->
+				</div><!-- /box3 -->
+
+
+<div class="grid__column-4">Phaedra is eigenares van pineapple, ze werkte eerst 5 jaar als freelancer en bij sommige bureaus, toen ze het 3 jaar geleden welletjes vond en haar eigen zaak oprichtte. Ze nam daarvoor 2 getalenteerde designers onder haar vleugels en weg waren ze. 
+ 		</div>
+	<div class="grid__column-4">Tom is de knappe kop onder het trio hij heeft een grote kennis van webcodering en volgde ook nog is een cursus als vormgever.
+   Hij is echt van alle markten thuis. 
+	</div>
+ <div class="grid__column-4"> Sara is écht een krak in het digitaal illustreren, maar ook doet zij de developping van de websites terwijl tom ze dan codeert. 
+   Sara kan haar weg ook wel vinden in het ontwerpen en kan daar dan Phaedra en Tom bij helpen.
+ </div>
  
-  <div class="grid__wrapper">
-		<div class="grid__container">
+ <div class="grid__row">
+   <div class="grid__column-12"> samen vormen ze het perfecte team die jou wensen in vervulling brengen
+   </div>
+ </div>
+ 
+  
 			<div class="grid__row">
 				<div class="grid__column-4"> <a href="contact2.html"> <button class="button button4">get in touch</button> </a></div>
 			</div>
@@ -61,14 +92,13 @@
   <div class="grid__container">
     <div class="grid__row">
       <div class="grid__column-12">
-        <p>050 32 89 57 ­• info@pda.be • industrieweg 232 • 9000 Gent </p>
-        <p>Privacy • Facebook • Twitter • Instagram • Pintrest</p>
-        <div class="grid__column-2">
-          <p>© 2017 Pineapple design</p>
+        <p>© 2017 Pineapple design • 050 32 89 57 ­• info@pda.be • industrieweg 232 • 9000 Gent </p>
+      <ul class="footer"> <li> <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li> <li> <a href="https://twitter.com"> <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li> <li><a href="https://www.instagram.com"> <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li> <li><a href="https://www.pinterest.com"> <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i></a></li></ul>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 </body>
 </html>

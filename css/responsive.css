@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1024px) { 
+._grid__development{
+    width: 100%
+
+}
+
+
+@media only screen and (max-width: 960px) { 
+._grid__development{
+    width:100%;
+    float: none;
+
+}}
+
+
+@media only screen and (max-width: 767px) { 
+._grid__development{
+    width:100%;
+    float: none;
+}}
+
+
+@media only screen and (max-width: 479px) {
+._grid__development{
+    width:100%;
+    float:none;
+}}
